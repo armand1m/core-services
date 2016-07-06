@@ -7,3 +7,5 @@ You have:
 - RethinkDB: `rethinkdb_service`
 - Consul: `consul_service`
 - Fabio: `fabio_service`
+
+Microservices can import it using git submodule.
