@@ -8,4 +8,6 @@ You have:
 - Consul: `consul_service`
 - Fabio: `fabio_service`
 
-Microservices can import it using git submodule.
+Microservices must import it using git submodule:
+
+`git submodule add https://github.com/armand1m/core-services.git` 
