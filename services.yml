@@ -5,7 +5,7 @@ services:
     ports:
       - 28015
 
-   mongodb_service:
+  mongodb_service:
     image: mongodb:latest
     ports:
       - 27017
