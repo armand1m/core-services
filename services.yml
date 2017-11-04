@@ -5,6 +5,11 @@ services:
     ports:
       - 28015
 
+   mongodb_service:
+    image: mongodb:latest
+    ports:
+      - 27017
+
   consul_service:
     image: gliderlabs/consul-server:latest
     hostname: "consul"
